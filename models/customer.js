@@ -7,7 +7,7 @@ const customerSchema = new mongoose.Schema({
 });
 
 // Create the Customer model based on the customer schema
-const Customer = mongoose.model('Customer', customerSchema);
+const Customer = mongoose.model('Customer', customerSchema,'customers_CRM');
 
 // Export the Customer model for use in other modules
 module.exports = Customer;
