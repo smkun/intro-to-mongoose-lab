@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const prompt = require("prompt-sync")();
 const Customer = require("./models/customer");
+const { fork } = require('child_process');
 
 dotenv.config();
 
